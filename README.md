@@ -21,12 +21,14 @@
 
 - Paste the key into Github account settings (https://github.com/settings/keys)
 
-## Signed on every commit
-
-- `export GPG_TTY=$(tty)`
+## Signed on every commit`
 
 - `git config --global gpg.program "/usr/local/bin/gpg"`
 
 - `git config user.signingkey nick@example.com` or use the ID in list-keys
 
 - `git config commit.gpgsign true`
+
+- `export GPG_TTY=$TTY` (add into `~/.zshrc`)
+
+- `git log --show-signature`

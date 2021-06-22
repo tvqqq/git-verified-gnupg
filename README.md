@@ -1,3 +1,7 @@
+![tvqqq/git-verified-gnupg](image.png)
+
+— — —
+
 ## @see:
 
 - https://www.youtube.com/watch?v=1vVIpIvboSg
